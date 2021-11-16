@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="main.css" type="text/css">
+<body>
+<div id="nav">
+    <ul>
+        <li>Trang chủ</li>
+        <li><a href="VarAndLet.html">Var và Let</a></li>
+        <li><a href="SlicevsSubstrvsSubstring.html" class="active">So sánh giữa Slice, Substr và Substring</a></li>
+        <li><a href="querySelector.html">querySelector hoạt động như thế nào</a></li>
+    </ul>
+</div>
+<div id="content">
+    <p>Bên cạnh việc xử lý vòng lặp với mảng như bài viết đầu tiên trong series thì hôm nay mình cũng sẽ giới thiệu về một bộ ba cũng thường là những tác nhân gây đau đầu cho các lập trình viên khi thao tác với chúng : slice(), splice(), split(). Ngay từ việc đọc tên thôi cũng đã làm cho không ít người bối rối.</p>
+    <h2>Slice</h2>
+    <p>Dịch từ này sáng tiếng Việt thì se nôm na là xắt, thái và tác dụng của nó cũng khá giống như vậy, cắt bỏ một phần của array, tuy nhiên điểm cần lưu ý đó chính là hàm slice sẽ tạo ra một array mới chứ không hề chỉnh sửa trên đối tượng array gọi đến nó.</p>
+    <pre><code>let array = [1, 2, 3, "hello world", 4.12, true];
+     let newArray = array.slice(1, 4);</code></pre>
+
+</div>
+</body>
+</html>

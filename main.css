@@ -1,0 +1,42 @@
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#content {
+    background-color: white;
+    opacity: 0.8;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+html {
+    background-image: url("https://wallpaperaccess.com/full/4896.jpg");
+}
+
+li, a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+a:hover {
+    color:yellow;
+}
+
+#nav ul a.active{
+    background: forestgreen;
+}
